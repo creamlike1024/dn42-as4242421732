@@ -217,3 +217,15 @@ dn42_peers:
     bgp:
       asn: '4242420150'
       session: 'mp'
+  - name: 'teutates.grmml.net'
+    contacts: 'nurtic-vibe@hackint'
+    wireguard:
+      endpoint_address: 'teutates.grmml.net'
+      endpoint_port: '51732'
+      public_key: 'moqKxZ2oUUXjIHY+25tFJtDZ7iGF/+XjXom883YRFU8='
+    address:
+      ipv6: 'fe80::149:5'
+      ipv4: '172.23.149.5'
+    bgp:
+      asn: '4242420123'
+      session: 'ipv4+ipv6'
