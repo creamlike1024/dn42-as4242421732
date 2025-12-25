@@ -75,3 +75,15 @@ dn42_peers:
       asn: '4242420057'
       session: 'mp'
       enhe: 'no'
+
+  - name: "lv.dn42.moe233.net"
+    contacts: "https://blog.moe233.net/dn42"
+    wireguard:
+      endpoint_address: "lv.dn42.moe233.net"
+      endpoint_port: "21732"
+      public_key: "C3SneO68SmagisYQ3wi5tYI2R9g5xedKkB56Y7rtPUo="
+    address:
+      ipv6: "fe80::253"
+    bgp:
+      asn: "4242420253"
+      session: "mp"

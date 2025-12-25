@@ -112,3 +112,15 @@ dn42_peers:
     bgp:
       asn: '26954'
       session: 'ipv4+ipv6'
+
+  - name: "ams.dn42.moe233.net"
+    contacts: "https://blog.moe233.net/dn42"
+    wireguard:
+      endpoint_address: "ams.dn42.moe233.net"
+      endpoint_port: "21732"
+      public_key: "vRRfNnGL7jpKGBJjLZg612vHQulDOtICkgXCC++1+2g="
+    address:
+      ipv6: "fe80::253"
+    bgp:
+      asn: "4242420253"
+      session: "mp"
